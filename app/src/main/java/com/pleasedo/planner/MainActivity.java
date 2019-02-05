@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+//hi
 public class MainActivity extends AppCompatActivity {
     private static TextView textView;
     private static Button button;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         gettingDate();
 
     }
+
 
     private void gettingDate() {
         button = (Button)findViewById(R.id.button);
