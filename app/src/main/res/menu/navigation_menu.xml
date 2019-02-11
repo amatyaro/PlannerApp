@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id ="@+id/_nav_Overview"
+            android:icon="@drawable/ic_overview"
+            android:title="Overview"/>
+
+        <item android:id ="@+id/_nav_Monthly"
+            android:icon="@drawable/ic_monthly"
+            android:title="Monthly"/>
+
+        <item android:id ="@+id/_nav_Events"
+            android:icon="@drawable/ic_event"
+            android:title="Events"/>
+
+        <item android:id ="@+id/_nav_toDo"
+            android:icon="@drawable/ic_todo"
+            android:title="To Do List"/>
+
+        <item android:id ="@+id/_nav_notes"
+            android:icon="@drawable/ic_notes"
+            android:title="Notes"/>
+
+        <item android:id ="@+id/_nav_alarm"
+            android:icon="@drawable/ic_alarm"
+            android:title="Alarm"/>
+
+
+    </group>
+
+    <item android:title= "Preference">
+        <menu>
+            <item android:id="@+id/_nav_theme"
+                android:icon="@drawable/ic_theme"
+                android:title="Theme"/>
+
+            <item android:id="@+id/_nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings"/>
+
+        </menu>
+    </item>
+
+
+</menu>

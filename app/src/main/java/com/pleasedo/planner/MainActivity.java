@@ -3,11 +3,12 @@ package com.pleasedo.planner;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-//hi
+
 public class MainActivity extends AppCompatActivity {
     private static TextView textView;
     private static Button button;
@@ -17,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
         gettingDate();
 
     }
@@ -39,5 +42,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
 }
+
+
+
+
